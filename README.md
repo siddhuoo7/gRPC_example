@@ -1,18 +1,6 @@
 # gRPC Spring Boot Starter
 
-[![Build master branch](https://github.com/yidongnan/grpc-spring-boot-starter/workflows/Build%20master%20branch/badge.svg)](https://github.com/yidongnan/grpc-spring-boot-starter/actions)
-[![Maven Central with version prefix filter](https://img.shields.io/maven-central/v/net.devh/grpc-spring-boot-starter.svg)](http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22net.devh%22%20grpc)
-[![MIT License](https://img.shields.io/github/license/mashape/apistatus.svg)](LICENSE)
-[![Crowdin](https://badges.crowdin.net/grpc-spring-boot-starter/localized.svg)](https://crowdin.com/project/grpc-spring-boot-starter)
-
-[![Client-Javadoc](https://www.javadoc.io/badge/net.devh/grpc-client-spring-boot-autoconfigure.svg?label=Client-Javadoc)](https://www.javadoc.io/doc/net.devh/grpc-client-spring-boot-autoconfigure)
-[![Server-Javadoc](https://www.javadoc.io/badge/net.devh/grpc-server-spring-boot-autoconfigure.svg?label=Server-Javadoc)](https://www.javadoc.io/doc/net.devh/grpc-server-spring-boot-autoconfigure)
-[![Common-Javadoc](https://www.javadoc.io/badge/net.devh/grpc-common-spring-boot.svg?label=Common-Javadoc)](https://www.javadoc.io/doc/net.devh/grpc-common-spring-boot)
-
-README: [English](README.md) | [中文](README-zh-CN.md)
-
-**Documentation:** [English](https://yidongnan.github.io/grpc-spring-boot-starter/en/) | [中文](https://yidongnan.github.io/grpc-spring-boot-starter/zh-CN/)
-
+**Documentation:** https://yidongnan.github.io/grpc-spring-boot-starter/en/)
 ## Features
 
 * Automatically configures and runs the gRPC server with your `@GrpcService` implementations
@@ -232,15 +220,3 @@ implementation 'net.devh:grpc-spring-boot-starter:...' exclude group: 'io.grpc',
 implementation 'net.devh:grpc-client-spring-boot-starter:...' exclude group: 'io.grpc', module: 'grpc-netty-shaded' // For the client (only)
 implementation 'net.devh:grpc-server-spring-boot-starter:...' exclude group: 'io.grpc', module: 'grpc-netty-shaded' // For the server (only)
 ````
-
-## Example-Projects
-
-Read more about our example projects [here](examples).
-
-## Troubleshooting
-
-Refer to our [documentation](https://yidongnan.github.io/grpc-spring-boot-starter/en/trouble-shooting) for help.
-
-## Contributing
-
-Contributions are always welcomed! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.
