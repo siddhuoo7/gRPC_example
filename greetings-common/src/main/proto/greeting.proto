@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+package com.ecsfin.grpc;
+
+option java_multiple_files = true;
+option java_package = "com.ecsfin.grpc";
+option java_outer_classname = "GreetingProto";
+
+
+service GreetingService {
+  rpc greeting(GreetingRequest) returns (GreetingResponse) {
+  }
+}
+
+message GreetingRequest {
+  string message = 1;
+}
+
+message GreetingResponse {
+  string message = 1;
+}
